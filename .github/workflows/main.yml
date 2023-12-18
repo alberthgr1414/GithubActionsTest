@@ -21,4 +21,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: alberth1414/githubactionstest,${{secrets.VERSION}}
+          tags: alberth1414/githubactionstest:${{secrets.VERSION}}
